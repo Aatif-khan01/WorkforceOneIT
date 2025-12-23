@@ -132,7 +132,7 @@ const ClearedRecruitment = () => {
       title: "Candidate Sourcing",
       description: "Utilizing our database and industry connections to find qualified candidates.",
       backContent: "Our proprietary database of cleared professionals and extensive network enable rapid identification of candidates matching your exact requirements.",
-      iconColor: "text-secondary"
+      iconColor: "text-accent"
     },
     {
       icon: CheckCircle,
@@ -243,7 +243,7 @@ const ClearedRecruitment = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-accent-glow to-accent bg-clip-text text-transparent">
                 End-to-End Recruitment Process
               </span>
             </h2>
@@ -269,7 +269,7 @@ const ClearedRecruitment = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
                 Specialized Roles We Fill
               </span>
             </h2>
@@ -291,8 +291,8 @@ const ClearedRecruitment = () => {
       <section className="py-24 bg-gradient-to-b from-background to-background/50">
         <div className="container mx-auto px-6">
           <GlassCard className="p-12 max-w-4xl mx-auto">
-            <h2 className="text-4xl font-bold mb-8 text-center">
-              <span className="bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent">
+            <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
+              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
                 Why Choose Our Cleared Recruitment
               </span>
             </h2>
@@ -303,7 +303,7 @@ const ClearedRecruitment = () => {
                   <p className="text-muted-foreground">Years of experience in the industry with deep understanding of security clearance complexities.</p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold mb-2 text-secondary">Extensive Network</h3>
+                  <h3 className="text-xl font-bold mb-2 text-accent">Extensive Network</h3>
                   <p className="text-muted-foreground">Vast database of cleared professionals allows us to quickly find the right candidates.</p>
                 </div>
               </div>

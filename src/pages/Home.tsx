@@ -34,15 +34,15 @@ icon: Users,
 title: "Cleared Recruitment",
 description: "Accelerated access to highly qualified and cleared professionals for your mission-critical projects.",
 link: "/services/recruitment",
-gradient: "from-secondary to-accent",
-image: serviceRecruitment
-},
-{
-icon: Briefcase,
-title: "Workforce Staffing",
-description: "Connecting your business with thoroughly vetted talent that fits your culture and mission.",
-link: "/services/staffing",
-gradient: "from-secondary to-primary",
+gradient: "from-accent-glow to-accent",
+      image: serviceRecruitment
+    },
+    {
+      icon: Briefcase,
+      title: "Workforce Staffing",
+      description: "Connecting your business with thoroughly vetted talent that fits your culture and mission.",
+      link: "/services/staffing",
+      gradient: "from-accent-glow to-accent",
 image: serviceStaffing
 },
 {
@@ -203,7 +203,7 @@ decoding="async"
 <div className="container mx-auto px-6">
 <AnimatedBox animation="fadeInUp" delay={50} className="text-center mb-16">
 <h2 className="text-5xl md:text-6xl font-bold mb-6">
-<span className="bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent">
+<span className="bg-gradient-to-r from-accent-glow to-accent bg-clip-text text-transparent">
 How We Work
 </span>
 </h2>
@@ -219,7 +219,7 @@ Technology can optimize processes, but it's people who make them meaningful. We 
 </AnimatedCard>
 
 <AnimatedCard className="p-8" animation="fadeInUp" delay={50}>
-<div className="text-5xl font-extrabold text-secondary mb-4 animate-float" style={{animationDelay: '0.5s'}}>
+<div className="text-5xl font-extrabold text-accent mb-4 animate-float" style={{animationDelay: '0.5s'}}>
 02
 </div>
 <h3 className="text-2xl font-bold mb-4">Quality Over Quantity</h3>
@@ -246,7 +246,7 @@ Today, we help you meet deadlines. Tomorrow, we help you expand into new markets
 <div className="container mx-auto px-6">
 <AnimatedCard className="p-12 max-w-4xl mx-auto" animation="fadeInUp" delay={50}>
 <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center">
-<span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+<span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
 What We Believe
 </span>
 </h2>
@@ -268,15 +268,15 @@ className="flex items-start space-x-4"
 </section>
 
 {/* Image Grid Info Section - WITH REDUCED SPACING */}
-<section className="py-24 relative">
-<div className="container mx-auto px-6">
-{/* Centered Title and Subtitle with reduced spacing */}
-<div className="text-center mb-8">
-<h2 className="text-4xl md:text-5xl font-bold mb-3">
-<span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
-Quick Summary about Workforce One Information Technology
-</span>
-</h2>
+      <section className="py-24 relative">
+        <div className="container mx-auto px-6">
+          {/* Centered Title and Subtitle with reduced spacing */}
+          <div className="text-center mb-8">
+            <h2 className="text-4xl md:text-5xl font-bold mb-3">
+              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
+                Quick Summary about Workforce One Information Technology
+              </span>
+            </h2>
 <p className="text-xl text-muted-foreground">
 </p>
 </div>

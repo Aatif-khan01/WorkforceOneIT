@@ -67,9 +67,6 @@ const Navigation = () => {
   };
 
   const getTextColor = () => {
-    if (isHomePage && !isScrolled) {
-      return "text-white";
-    }
     return "text-foreground";
   };
 
@@ -86,14 +83,8 @@ const Navigation = () => {
   };
 
   const getMobileButtonColor = () => {
-    if (isHomePage && !isScrolled) {
-      return "text-foreground bg-white/10 backdrop-blur-sm hover:bg-white/20";
-    }
-    return "text-foreground hover:text-accent";
-  };
-
-  // Choose logo based on theme
-  const currentLogo = theme === "dark" ? logoDark : logoLight;
+  return "text-foreground hover:text-accent";
+};
 
   return (
     <motion.nav
@@ -112,12 +103,22 @@ const Navigation = () => {
           {!isHomePage && (
             <Link
               to="/"
-              className="hover:scale-105 transition-transform duration-300"
+              className="hover:scale-105 transition-transform duration-300 flex items-center"
             >
               <img
-                src={currentLogo}
+                src={logoDark}
                 alt="Company logo"
-                className="h-12 w-auto object-contain transition-opacity duration-300"
+                className="h-12 w-auto object-contain transition-opacity duration-300 dark:hidden block"
+                style={{ maxHeight: "48px" }}
+                width={144}
+                height={48}
+                decoding="async"
+                loading="eager"
+              />
+              <img
+                src={logoLight}
+                alt="Company logo"
+                className="h-12 w-auto object-contain transition-opacity duration-300 hidden dark:block"
                 style={{ maxHeight: "48px" }}
                 width={144}
                 height={48}

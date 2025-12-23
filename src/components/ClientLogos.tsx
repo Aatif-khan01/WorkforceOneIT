@@ -33,7 +33,7 @@ const ClientLogos = () => {
       {/* Header */}
       <div className="text-center mb-10 md:mb-12">
         <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-foreground">
-          <span className="bg-gradient-to-r from-accent via-secondary to-accent bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-accent via-accent-glow to-accent bg-clip-text text-transparent">
             Serving Government Contractors collaborating with:
           </span>
         </h2>

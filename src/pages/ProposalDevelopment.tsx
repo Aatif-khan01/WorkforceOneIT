@@ -29,28 +29,28 @@ const ProposalDevelopment = () => {
       title: "Proposal Writing & Content",
       description: "Technical volumes, management plans, past performance and capability statements.",
       backContent: "Our expert writers craft compelling technical volumes, comprehensive management plans, and persuasive past performance narratives that showcase your capabilities.",
-      gradient: "from-secondary to-accent"
+      gradient: "from-accent-glow to-accent"
     },
     {
       icon: Palette,
       title: "Graphics & Design",
       description: "Professional layouts, infographics, charts, and brand-aligned visuals.",
       backContent: "Transform complex data into stunning visuals with our professional design team. We create infographics, charts, and layouts that enhance readability and impact.",
-      gradient: "from-coral to-accent"
+      gradient: "from-accent-glow to-accent"
     },
     {
       icon: CheckSquare,
       title: "Compliance Review & QA",
       description: "Section-by-section compliance mapping, Red/Pink/Gold team reviews.",
       backContent: "Ensure 100% compliance through rigorous section-by-section mapping and multi-level team reviews, eliminating risk and maximizing evaluation scores.",
-      gradient: "from-accent-glow to-secondary"
+      gradient: "from-accent-glow to-accent"
     },
     {
       icon: Calendar,
       title: "Project Management",
       description: "Timeline management, resource allocation, collaboration and submission support.",
       backContent: "We orchestrate every aspect of proposal development with meticulous timeline management, strategic resource allocation, and seamless submission coordination.",
-      gradient: "from-secondary to-accent"
+      gradient: "from-accent-glow to-accent"
     }
   ];
 
@@ -60,14 +60,14 @@ const ProposalDevelopment = () => {
       title: "Discovery & Planning",
       description: "Understanding goals, capture data, and establishing win themes.",
       backContent: "We begin by thoroughly understanding your objectives, analyzing capture intelligence, competitive landscape, and collaboratively establishing powerful win themes that differentiate your proposal.",
-      gradient: "from-accent to-secondary"
+      gradient: "from-accent to-accent-glow"
     },
     {
       number: "02",
       title: "Development & Drafting",
       description: "Combining technical, management, and pricing inputs.",
       backContent: "Our team synthesizes technical expertise, management strategies, and pricing models into cohesive, compelling content that addresses all evaluation criteria and stakeholder requirements.",
-      gradient: "from-secondary to-accent"
+      gradient: "from-accent-glow to-accent"
     },
     {
       number: "03",
@@ -168,7 +168,7 @@ const ProposalDevelopment = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
                 Our Core Services
               </span>
             </h2>
@@ -193,7 +193,7 @@ const ProposalDevelopment = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-accent-glow to-accent bg-clip-text text-transparent">
                 Our 4-Phase Process
               </span>
             </h2>
@@ -218,7 +218,7 @@ const ProposalDevelopment = () => {
         <div className="container mx-auto px-6">
           <GlassCard className="p-12 max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-center">
-              <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
                 Why Choose Our Proposal Services
               </span>
             </h2>
@@ -239,15 +239,15 @@ const ProposalDevelopment = () => {
               </div>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 rounded-full bg-secondary mt-2 flex-shrink-0" />
+                  <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
                   <p className="text-foreground">Strategic approach with data-driven insights</p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 rounded-full bg-secondary mt-2 flex-shrink-0" />
+                  <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
                   <p className="text-foreground">Professional design and visual presentation</p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 rounded-full bg-secondary mt-2 flex-shrink-0" />
+                  <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
                   <p className="text-foreground">Full project management and submission support</p>
                 </div>
               </div>
@@ -319,7 +319,7 @@ const PhaseFlipCard = ({
   title,
   description,
   backContent,
-  gradient = "from-accent to-secondary"
+  gradient = "from-accent to-accent-glow"
 }: {
   number: string;
   title: string;
@@ -343,7 +343,7 @@ const PhaseFlipCard = ({
         {/* Front Side */}
         <div className="absolute inset-0 backface-hidden">
           <div className="h-full w-full p-8 rounded-2xl border border-glass-border bg-glass/50 backdrop-blur-sm shadow-lg text-center">
-            <div className="text-6xl font-bold text-accent/20 mb-4">{number}</div>
+            <div className="text-6xl font-bold text-accent mb-4">{number}</div>
             <h3 className="text-xl font-bold mb-3">{title}</h3>
             <p className="text-sm text-muted-foreground">{description}</p>
           </div>
@@ -352,7 +352,7 @@ const PhaseFlipCard = ({
         {/* Back Side */}
         <div className="absolute inset-0 backface-hidden rotate-y-180">
           <div className="h-full w-full p-8 rounded-2xl bg-accent shadow-lg flex flex-col justify-center items-center text-center">
-            <div className="text-5xl font-bold text-accent-foreground/40 mb-3">{number}</div>
+            <div className="text-5xl font-bold text-accent-foreground mb-3">{number}</div>
             <h3 className="text-xl font-bold mb-4 text-accent-foreground">{title}</h3>
             <p className="text-accent-foreground/90 text-sm leading-relaxed">
               {backContent || description}

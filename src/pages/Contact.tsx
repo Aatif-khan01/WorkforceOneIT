@@ -132,7 +132,7 @@ const Contact = () => {
           <div className="max-w-4xl mx-auto text-center space-y-6">
             <AnimatedBox animation="fadeInUp" delay={200}>
               <h1 className="text-6xl md:text-7xl font-bold">
-                <span className="bg-gradient-to-r from-accent via-accent-glow to-secondary bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-accent via-accent-glow to-accent bg-clip-text text-transparent">
                   Contact Us
                 </span>
               </h1>
@@ -158,7 +158,7 @@ const Contact = () => {
             {/* Contact Form */}
             <AnimatedCard className="p-10" animation="fadeInLeft" delay={200}>
               <h2 className="text-3xl font-bold mb-8">
-                <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
                   Get in Touch
                 </span>
               </h2>
@@ -311,7 +311,7 @@ const Contact = () => {
 
               <AnimatedCard className="p-8" animation="fadeInRight" delay={500}>
                 <div className="flex items-start space-x-4">
-                  <div className="p-3 rounded-xl bg-gradient-to-br from-secondary to-accent flex-shrink-0 animate-pulse-slow" style={{ animationDelay: '0.5s' }}>
+                  <div className="p-3 rounded-xl bg-gradient-to-br from-accent-glow to-accent flex-shrink-0 animate-pulse-slow" style={{ animationDelay: '0.5s' }}>
                     <Phone size={24} className="text-background" />
                   </div>
                   <div>
@@ -334,7 +334,7 @@ const Contact = () => {
 
               <AnimatedCard className="p-8" animation="fadeInRight" delay={700}>
                 <h3 className="text-2xl font-bold mb-6">
-                  <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+                  <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
                     Stay Connected
                   </span>
                 </h3>
@@ -351,7 +351,7 @@ const Contact = () => {
                 </div>
               </AnimatedCard>
 
-              <AnimatedCard className="p-8 bg-gradient-to-br from-accent/10 to-secondary/10" animation="fadeInRight" delay={900}>
+              <AnimatedCard className="p-8 bg-gradient-to-br from-accent/10 to-accent-glow/10" animation="fadeInRight" delay={900}>
                 <h3 className="text-xl font-bold mb-4">Ready to Get Started?</h3>
                 <p className="text-muted-foreground mb-6">
                   Our team typically responds within 24 hours during business days. For urgent inquiries, please mention it in your message.

@@ -43,7 +43,7 @@ const PrivacyPolicy = () => {
               <Shield size={48} className="text-background" />
             </div>
             <h1 className="text-5xl md:text-6xl font-bold">
-              <span className="bg-gradient-to-r from-accent via-accent-glow to-secondary bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-accent via-accent-glow to-accent bg-clip-text text-transparent">
                 Privacy Policy
               </span>
             </h1>
@@ -72,7 +72,7 @@ const PrivacyPolicy = () => {
             {/* Our Commitment */}
             <div>
               <h2 className="text-3xl font-bold mb-8 text-center">
-                <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
                   Our Commitment to Your Information
                 </span>
               </h2>
@@ -94,7 +94,7 @@ const PrivacyPolicy = () => {
 
                 <GlassCard className="p-8 group hover:border-secondary transition-colors">
                   <div className="flex items-start space-x-4">
-                    <div className="p-3 rounded-xl bg-gradient-to-br from-secondary to-accent flex-shrink-0 group-hover:scale-110 transition-transform">
+                    <div className="p-3 rounded-xl bg-gradient-to-br from-accent-glow to-accent flex-shrink-0 group-hover:scale-110 transition-transform">
                       <Shield size={24} className="text-background" />
                     </div>
                     <div>
@@ -108,7 +108,7 @@ const PrivacyPolicy = () => {
 
                 <GlassCard className="p-8 group hover:border-accent transition-colors">
                   <div className="flex items-start space-x-4">
-                    <div className="p-3 rounded-xl bg-gradient-to-br from-accent to-secondary flex-shrink-0 group-hover:scale-110 transition-transform">
+                    <div className="p-3 rounded-xl bg-gradient-to-br from-accent to-accent-glow flex-shrink-0 group-hover:scale-110 transition-transform">
                       <Eye size={24} className="text-background" />
                     </div>
                     <div>
@@ -137,7 +137,7 @@ const PrivacyPolicy = () => {
             </div>
 
             {/* Website Information Gathering */}
-            <GlassCard className="p-8 md:p-12 bg-gradient-to-br from-accent/5 to-secondary/5">
+            <GlassCard className="p-8 md:p-12 bg-gradient-to-br from-accent/5 to-accent-glow/5">
               <h2 className="text-3xl font-bold mb-6 text-foreground">
                 Website Information Gathering
               </h2>
@@ -162,7 +162,7 @@ const PrivacyPolicy = () => {
             {/* Key Points Summary */}
             <GlassCard className="p-8 md:p-12">
               <h2 className="text-2xl font-bold mb-6 text-center">
-                <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
                   Key Privacy Principles
                 </span>
               </h2>

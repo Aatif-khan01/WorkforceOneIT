@@ -8,120 +8,110 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Dark Theme - Default: Professional Deep Navy & Teal */
-    --background: 222 47% 11%;
-    --foreground: 210 40% 98%;
+    /* iQuasar Theme: Red & Black */
+    --background: 0 0% 100%; /* White */
+    --foreground: 222 47% 11%; /* Dark Gray/Black */
 
-    --card: 222 47% 13%;
-    --card-foreground: 210 40% 98%;
+    --card: 0 0% 100%; /* White */
+    --card-foreground: 222 47% 11%; /* Dark Gray/Black */
 
-    --popover: 222 47% 13%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%; /* Dark Gray/Black */
 
-    /* Primary - Deep Blue */
-    --primary: 222 84% 56%;
-    --primary-foreground: 210 40% 98%;
-    --primary-glow: 222 84% 70%;
+    /* Primary - iQuasar Yellow */
+    --primary: 42 98% 53%;
+    --primary-foreground: 222 47% 11%; /* Dark Text for Yellow bg */
+    --primary-glow: 42 98% 70%;
 
-    /* Secondary - Muted Slate */
-    --secondary: 217 32% 24%;
-    --secondary-foreground: 210 40% 98%;
+    /* Secondary - Dark Gray */
+    --secondary: 222 47% 11%;
+    --secondary-foreground: 0 0% 100%; /* White */
 
-    --muted: 217 19% 27%;
-    --muted-foreground: 215 20% 80%;
+    --muted: 210 40% 96%; /* Light Gray */
+    --muted-foreground: 215 20% 35%;
 
-    /* Accent - Modern Cyan/Teal */
-    --accent: 199 89% 48%;
-    --accent-foreground: 210 40% 98%;
-    --accent-glow: 199 89% 70%;
+    /* Accent - Yellow */
+    --accent: 42 98% 53%;
+    --accent-foreground: 222 47% 11%; /* Dark Text */
+    --accent-glow: 42 98% 70%;
 
-    /* CTA Accent (Warm Amber) */
-    --coral: 24 95% 53%;
-    --coral-foreground: 210 40% 98%;
+    /* CTA Accent */
+    --coral: 42 98% 53%;
+    --coral-foreground: 222 47% 11%;
 
     --destructive: 0 72% 51%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 215 28% 25%;
-    --input: 217 19% 27%;
-    --ring: 199 89% 48%;
+    --border: 214 32% 91%; /* Light Gray */
+    --input: 210 40% 98%;
+    --ring: 42 98% 53%; /* Yellow */
 
     --radius: 1rem;
     
     /* Glass Effect */
-    --glass-bg: 222 47% 15%;
-    --glass-border: 215 28% 25%;
+    --glass-bg: 0 0% 100%; /* White */
+    --glass-border: 210 40% 90%;
     
     /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(222 84% 56%), hsl(199 89% 48%));
-    --gradient-accent: linear-gradient(135deg, hsl(199 89% 48%), hsl(174 84% 39%));
-    --gradient-warm: linear-gradient(135deg, hsl(222 47% 18%), hsl(222 47% 10%));
-    --gradient-hero: linear-gradient(135deg, hsl(222 47% 10%) 0%, hsl(222 47% 13%) 50%, hsl(221 39% 11%) 100%);
+    --gradient-primary: linear-gradient(135deg, hsl(42 98% 53%), hsl(42 98% 60%));
+    --gradient-accent: linear-gradient(135deg, hsl(42 98% 53%), hsl(42 98% 65%));
+    --gradient-warm: linear-gradient(135deg, hsl(210 40% 98%), hsl(210 40% 96%));
+    --gradient-hero: linear-gradient(135deg, hsl(210 40% 98%) 0%, hsl(210 40% 96%) 50%, hsl(210 40% 94%) 100%);
     
     /* Shadows */
-    --shadow-glow: 0 0 40px hsl(0 0% 80% / 0.2);
-    --shadow-elevation: 0 20px 60px -15px hsl(0 0% 0% / 0.4);
-    --shadow-glass: 0 8px 32px 0 hsl(0 0% 0% / 0.3);
+    --shadow-glow: 0 0 40px hsl(42 98% 53% / 0.25);
+    --shadow-elevation: 0 18px 45px -10px hsl(222 47% 20% / 0.10);
+    --shadow-glass: 0 10px 30px 0 hsl(220 20% 60% / 0.10);
     
     /* Animation */
     --transition-smooth: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-bounce: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
 
-  .light {
-    /* Light Theme - Clean, Minimal, Professional */
-    --background: 0 0% 100%;
-    --foreground: 222 47% 11%;
+  .dark {
+    /* Dark Theme */
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222 47% 11%;
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222 47% 11%;
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
 
-    /* Primary - Deep Blue */
-    --primary: 222 47% 11%;
-    --primary-foreground: 210 40% 98%;
-    --primary-glow: 222 84% 70%;
+    --primary: 42 98% 53%;
+    --primary-foreground: 222 47% 11%;
+    --primary-glow: 42 98% 70%;
 
-    /* Secondary - Slate */
-    --secondary: 215 20% 25%;
+    --secondary: 217 33% 17%;
     --secondary-foreground: 210 40% 98%;
 
-    --muted: 210 40% 96%;
-    --muted-foreground: 215 20% 35%;
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
 
-    /* Accent - Cyan/Teal */
-    --accent: 199 89% 48%;
-    --accent-foreground: 210 40% 98%;
-    --accent-glow: 199 89% 70%;
+    --accent: 42 98% 53%;
+    --accent-foreground: 222 47% 11%;
+    --accent-glow: 42 98% 70%;
+    
+    --coral: 42 98% 53%;
+    --coral-foreground: 222 47% 11%;
 
-    /* CTA Accent */
-    --coral: 24 95% 53%;
-    --coral-foreground: 210 40% 98%;
-
-    --destructive: 0 72% 51%;
+    --destructive: 0 62% 30%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214 32% 91%;
-    --input: 210 40% 98%;
-    --ring: 222 84% 56%;
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 42 98% 53%;
 
-    /* Glass Effect */
-    --glass-bg: 0 0% 100%;
-    --glass-border: 214 32% 91%;
+    --glass-bg: 222 47% 11%;
+    --glass-border: 217 33% 20%;
     
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(222 47% 11%), hsl(199 89% 48%));
-    --gradient-accent: linear-gradient(135deg, hsl(199 89% 48%), hsl(222 84% 56%));
-    --gradient-warm: linear-gradient(135deg, hsl(210 40% 98%), hsl(210 40% 96%));
-    --gradient-hero: linear-gradient(135deg, hsl(210 40% 98%) 0%, hsl(210 40% 96%) 50%, hsl(210 40% 94%) 100%);
-    
-    /* Shadows */
-    --shadow-glow: 0 0 40px hsl(222 84% 56% / 0.28);
-    --shadow-elevation: 0 18px 45px -10px hsl(222 47% 20% / 0.25);
-    --shadow-glass: 0 10px 30px 0 hsl(220 20% 60% / 0.18);
+    --shadow-glow: 0 0 40px hsl(42 98% 53% / 0.25);
+    --shadow-elevation: 0 18px 45px -10px hsl(0 0% 0% / 0.5);
+    --shadow-glass: 0 10px 30px 0 hsl(0 0% 0% / 0.3);
   }
+
+
 }
 
 @layer base {

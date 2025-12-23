@@ -55,7 +55,7 @@ const ImageGridInfo = ({ images, title, subtitle, sections, reverse = false, hid
             {!hideTitle && title && (
               <div>
                 <h2 className="text-4xl md:text-5xl font-bold mb-2">
-                  <span className="bg-gradient-to-r from-accent via-accent-glow to-secondary bg-clip-text text-transparent">
+                  <span className="bg-gradient-to-r from-accent via-accent-glow to-accent bg-clip-text text-transparent">
                     {title}
                   </span>
                 </h2>

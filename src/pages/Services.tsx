@@ -32,7 +32,7 @@ const Services = () => {
       title: "Cleared Recruitment",
       description: "Accelerated access to highly qualified and cleared professionals for your mission-critical projects.",
       link: "/services/recruitment",
-      gradient: "from-secondary to-accent",
+      gradient: "from-accent-glow to-accent",
       image: serviceRecruitment,
     },
     {
@@ -40,7 +40,7 @@ const Services = () => {
       title: "Workforce Staffing",
       description: "Connecting your business with thoroughly vetted talent that fits your culture and mission.",
       link: "/services/staffing",
-      gradient: "from-secondary to-primary",
+      gradient: "from-accent-glow to-primary",
       image: serviceStaffing,
     },
     {
@@ -279,7 +279,7 @@ const Services = () => {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6">
-              <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
                 How It Works
               </span>
             </h2>
@@ -292,7 +292,7 @@ const Services = () => {
                 <div className="w-14 h-14 sm:w-16 sm:h-16 mx-auto mb-4 sm:mb-6 rounded-full bg-gradient-to-br from-accent to-accent-glow flex items-center justify-center group-hover:scale-110 transition-transform duration-300">
                   <step.icon size={24} className="text-background sm:w-7 sm:h-7" />
                 </div>
-                <div className="text-4xl sm:text-5xl font-bold text-accent/20 mb-3 sm:mb-4">{step.number}</div>
+                <div className="text-4xl sm:text-5xl font-bold text-accent mb-3 sm:mb-4">{step.number}</div>
                 <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3">{step.title}</h3>
                 <p className="text-xs sm:text-sm text-muted-foreground">{step.description}</p>
               </GlassCard>
@@ -307,7 +307,7 @@ const Services = () => {
           {/* Centered Title and Subtitle */}
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-3">
-              <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
                 Service Excellence
               </span>
             </h2>

@@ -315,7 +315,7 @@ const SoftwareDevelopment = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
                 Our Software Development Services
               </span>
             </h2>
@@ -340,7 +340,7 @@ const SoftwareDevelopment = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-accent-glow to-accent bg-clip-text text-transparent">
                 Our Development Process
               </span>
             </h2>
@@ -365,7 +365,7 @@ const SoftwareDevelopment = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
                 Technologies We Use
               </span>
             </h2>
@@ -395,7 +395,7 @@ const SoftwareDevelopment = () => {
         <div className="container mx-auto px-6">
           <GlassCard className="p-12 max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-center">
-              <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
                 Why Choose Our Software Development
               </span>
             </h2>
@@ -416,15 +416,15 @@ const SoftwareDevelopment = () => {
               </div>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 rounded-full bg-secondary mt-2 flex-shrink-0" />
+                  <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
                   <p className="text-foreground">Commitment to quality with ISO certifications</p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 rounded-full bg-secondary mt-2 flex-shrink-0" />
+                  <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
                   <p className="text-foreground">Agile methodologies ensuring flexibility and continuous improvement</p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 rounded-full bg-secondary mt-2 flex-shrink-0" />
+                  <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
                   <p className="text-foreground">Ongoing support and maintenance for long-term success</p>
                 </div>
               </div>

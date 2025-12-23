@@ -67,7 +67,7 @@ const ProcessStepFlipCard = ({
   title,
   description,
   backContent,
-  numberColor = "text-accent/20"
+  numberColor = "text-accent"
 }: {
   number: string;
   title: string;
@@ -96,7 +96,7 @@ const ProcessStepFlipCard = ({
         {/* Back Side */}
         <div className="absolute inset-0 backface-hidden rotate-y-180">
           <div className="h-full w-full p-6 rounded-2xl bg-accent shadow-lg flex flex-col justify-center items-center text-center overflow-hidden">
-            <div className="text-4xl font-bold text-accent-foreground/40 mb-3 flex-shrink-0">{number}</div>
+            <div className="text-4xl font-bold text-accent-foreground mb-3 flex-shrink-0">{number}</div>
             <h3 className="text-lg font-bold mb-3 text-accent-foreground flex-shrink-0">{title}</h3>
             <p className="text-accent-foreground/90 text-xs leading-tight line-clamp-5">
               {backContent || description}
@@ -142,13 +142,13 @@ const StaffingServices = () => {
       title: "Project & Contract Staffing",
       description: "When you have an upcoming project, surge requirement, or short-term initiative.",
       features: ["Rapid sourcing of specialists", "Flexible contract terms", "Onboarding & monitoring", "Budget-friendly models"],
-      gradient: "from-secondary to-accent"
+      gradient: "from-accent-glow to-accent"
     },
     {
       title: "Long-Term & Direct Hire",
       description: "For strategic hires or building your core workforce aligned to your growth.",
       features: ["Full lifecycle recruitment", "Talent-mapping support", "Cultural integration", "Retention-focused"],
-      gradient: "from-secondary to-primary"
+      gradient: "from-primary-glow to-primary"
     }
   ];
 
@@ -158,28 +158,28 @@ const StaffingServices = () => {
       title: "Discovery & Planning",
       description: "Understanding business objectives, project timelines, required competencies, and budget.",
       backContent: "We conduct in-depth consultations to understand your organizational goals, project scope, timeline constraints, technical requirements, budget parameters, and cultural considerations to develop optimal staffing strategies.",
-      numberColor: "text-accent/20"
+      numberColor: "text-accent"
     },
     {
       number: "02",
       title: "Talent Sourcing",
       description: "Using proprietary talent network and cleared-candidate databases to identify potential candidates.",
       backContent: "Leveraging our extensive database of pre-qualified candidates, industry networks, and active sourcing strategies to identify professionals who match your specific technical, clearance, and cultural requirements.",
-      numberColor: "text-secondary/20"
+      numberColor: "text-accent"
     },
     {
       number: "03",
       title: "Selection & Onboarding",
       description: "Reference checks, clearance verification, contract negotiation, and seamless onboarding.",
       backContent: "Comprehensive vetting including reference verification, security clearance validation, skills assessment, followed by streamlined contract negotiation and structured onboarding to ensure immediate productivity.",
-      numberColor: "text-accent/20"
+      numberColor: "text-accent"
     },
     {
       number: "04",
       title: "Deployment & Tracking",
       description: "Performance monitoring, timesheet management, and workforce analytics.",
       backContent: "Ongoing management with real-time performance tracking, automated timesheet processing, compliance monitoring, and detailed workforce analytics to optimize productivity and drive continuous improvement.",
-      numberColor: "text-accent-glow/20"
+      numberColor: "text-accent-glow"
     }
   ];
 
@@ -273,7 +273,7 @@ const StaffingServices = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
                 Why Our Workforce Staffing Stands Out
               </span>
             </h2>
@@ -307,7 +307,7 @@ const StaffingServices = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-accent-glow to-accent bg-clip-text text-transparent">
                 Core Staffing Solutions
               </span>
             </h2>
@@ -342,7 +342,7 @@ const StaffingServices = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
                 Our Process: How We Deliver Value
               </span>
             </h2>
@@ -368,7 +368,7 @@ const StaffingServices = () => {
         <div className="container mx-auto px-6">
           <GlassCard className="p-12 max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-center">
-              <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
                 Why Choose Workforce One Information Technology
               </span>
             </h2>
@@ -389,15 +389,15 @@ const StaffingServices = () => {
               </div>
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 rounded-full bg-secondary mt-2 flex-shrink-0" />
+                  <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
                   <p className="text-foreground">Rapid deployment when opportunities arise</p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 rounded-full bg-secondary mt-2 flex-shrink-0" />
+                  <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
                   <p className="text-foreground">Quality-focused candidate assessment</p>
                 </div>
                 <div className="flex items-start space-x-3">
-                  <div className="w-2 h-2 rounded-full bg-secondary mt-2 flex-shrink-0" />
+                  <div className="w-2 h-2 rounded-full bg-accent mt-2 flex-shrink-0" />
                   <p className="text-foreground">Aligned with your business strategy</p>
                 </div>
               </div>

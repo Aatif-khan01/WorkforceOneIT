@@ -7,9 +7,6 @@ import { useTheme } from "@/components/ThemeProvider";
 const Footer = () => {
   const { theme } = useTheme();
   
-  // Choose logo based on theme
-  const currentLogo = theme === "dark" ? logoDark : logoLight;
-
   return (
     <footer className="relative mt-24 bg-card/50 backdrop-blur-xl border-t border-glass-border">
       <div className="container mx-auto px-6 py-12">
@@ -17,9 +14,18 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="inline-flex items-center">
               <img
-                src={currentLogo}
+                src={logoDark}
                 alt="Company logo"
-                className="h-14 w-auto transition-opacity duration-300"
+                className="h-14 w-auto transition-opacity duration-300 dark:hidden block"
+                width={168}
+                height={56}
+                decoding="async"
+                loading="lazy"
+              />
+              <img
+                src={logoLight}
+                alt="Company logo"
+                className="h-14 w-auto transition-opacity duration-300 hidden dark:block"
                 width={168}
                 height={56}
                 decoding="async"

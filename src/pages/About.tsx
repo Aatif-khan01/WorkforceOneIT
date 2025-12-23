@@ -129,7 +129,7 @@ const About = () => {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6">
-              <span className="bg-gradient-to-r from-secondary to-accent bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-accent-glow to-accent bg-clip-text text-transparent">
                 Why Choose Us
               </span>
             </h2>
@@ -146,7 +146,7 @@ const About = () => {
             </GlassCard>
 
             <GlassCard className="p-6 md:p-8">
-              <div className="text-3xl md:text-4xl font-bold text-secondary mb-3 md:mb-4">100%</div>
+              <div className="text-3xl md:text-4xl font-bold text-accent mb-3 md:mb-4">100%</div>
               <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3">Tailor-Made Solutions</h3>
               <p className="text-sm md:text-base text-muted-foreground">
                 Our services are not off-the-shelf — we align precisely with your business goals and
@@ -178,7 +178,7 @@ const About = () => {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-              <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
                 Industries We Serve
               </span>
             </h2>
@@ -204,7 +204,7 @@ const About = () => {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6">
-            <span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
                 Our Promise to You
               </span>
             </h2>
