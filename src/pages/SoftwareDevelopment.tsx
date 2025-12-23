@@ -93,7 +93,7 @@ const ProcessStepFlipCard = ({
         {/* Front Side */}
         <div className="absolute inset-0 backface-hidden">
           <div className="h-full w-full p-6 rounded-2xl border border-glass-border bg-glass/50 backdrop-blur-sm shadow-lg text-center flex flex-col">
-            <div className="text-5xl font-bold text-accent/20 mb-4 flex-shrink-0">{number}</div>
+            <div className="text-5xl font-bold text-accent mb-4 flex-shrink-0">{number}</div>
             <h3 className="text-lg font-bold mb-3 flex-shrink-0">{title}</h3>
             <p className="text-xs text-muted-foreground line-clamp-3">{description}</p>
           </div>
@@ -315,9 +315,9 @@ const SoftwareDevelopment = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
-                Our Software Development Services
-              </span>
+              <span className="text-accent">
+Our Software Development Services
+</span>
             </h2>
           </div>
 
@@ -340,9 +340,9 @@ const SoftwareDevelopment = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-accent-glow to-accent bg-clip-text text-transparent">
-                Our Development Process
-              </span>
+              <span className="text-accent">
+Our Development Process
+</span>
             </h2>
           </div>
 
@@ -365,9 +365,9 @@ const SoftwareDevelopment = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
-                Technologies We Use
-              </span>
+              <span className="text-accent">
+Technologies We Use
+</span>
             </h2>
           </div>
 
@@ -395,9 +395,9 @@ const SoftwareDevelopment = () => {
         <div className="container mx-auto px-6">
           <GlassCard className="p-12 max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-center">
-              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
-                Why Choose Our Software Development
-              </span>
+              <span className="text-accent">
+Why Choose Our Software Development
+</span>
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-4">

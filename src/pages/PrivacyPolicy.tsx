@@ -39,11 +39,11 @@ const PrivacyPolicy = () => {
       <section className="relative min-h-[50vh] flex items-center justify-center overflow-hidden pt-20 bg-gradient-to-b from-background to-background/50">
         <div className="container mx-auto px-6">
           <div className="max-w-4xl mx-auto text-center space-y-6">
-            <div className="inline-block p-4 rounded-2xl bg-gradient-to-br from-accent to-accent-glow mb-4">
+            <div className="inline-block p-4 rounded-2xl bg-accent mb-4">
               <Shield size={48} className="text-background" />
             </div>
             <h1 className="text-5xl md:text-6xl font-bold">
-              <span className="bg-gradient-to-r from-accent via-accent-glow to-accent bg-clip-text text-transparent">
+            <span className="text-accent">
                 Privacy Policy
               </span>
             </h1>
@@ -72,15 +72,15 @@ const PrivacyPolicy = () => {
             {/* Our Commitment */}
             <div>
               <h2 className="text-3xl font-bold mb-8 text-center">
-                <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
-                  Our Commitment to Your Information
-                </span>
+                <span className="text-accent">
+                Our Commitment to Your Information
+              </span>
               </h2>
 
               <div className="grid md:grid-cols-2 gap-6">
                 <GlassCard className="p-8 group hover:border-accent transition-colors">
                   <div className="flex items-start space-x-4">
-                    <div className="p-3 rounded-xl bg-gradient-to-br from-accent to-accent-glow flex-shrink-0 group-hover:scale-110 transition-transform">
+                    <div className="p-3 rounded-xl bg-accent flex-shrink-0 group-hover:scale-110 transition-transform">
                       <Lock size={24} className="text-background" />
                     </div>
                     <div>
@@ -94,7 +94,7 @@ const PrivacyPolicy = () => {
 
                 <GlassCard className="p-8 group hover:border-secondary transition-colors">
                   <div className="flex items-start space-x-4">
-                    <div className="p-3 rounded-xl bg-gradient-to-br from-accent-glow to-accent flex-shrink-0 group-hover:scale-110 transition-transform">
+                    <div className="p-3 rounded-xl bg-accent flex-shrink-0 group-hover:scale-110 transition-transform">
                       <Shield size={24} className="text-background" />
                     </div>
                     <div>
@@ -108,7 +108,7 @@ const PrivacyPolicy = () => {
 
                 <GlassCard className="p-8 group hover:border-accent transition-colors">
                   <div className="flex items-start space-x-4">
-                    <div className="p-3 rounded-xl bg-gradient-to-br from-accent to-accent-glow flex-shrink-0 group-hover:scale-110 transition-transform">
+                    <div className="p-3 rounded-xl bg-accent flex-shrink-0 group-hover:scale-110 transition-transform">
                       <Eye size={24} className="text-background" />
                     </div>
                     <div>
@@ -122,7 +122,7 @@ const PrivacyPolicy = () => {
 
                 <GlassCard className="p-8 group hover:border-accent-glow transition-colors">
                   <div className="flex items-start space-x-4">
-                    <div className="p-3 rounded-xl bg-gradient-to-br from-accent-glow to-accent flex-shrink-0 group-hover:scale-110 transition-transform">
+                    <div className="p-3 rounded-xl bg-accent flex-shrink-0 group-hover:scale-110 transition-transform">
                       <FileCheck size={24} className="text-background" />
                     </div>
                     <div>
@@ -137,7 +137,7 @@ const PrivacyPolicy = () => {
             </div>
 
             {/* Website Information Gathering */}
-            <GlassCard className="p-8 md:p-12 bg-gradient-to-br from-accent/5 to-accent-glow/5">
+            <GlassCard className="p-8 md:p-12 bg-accent/5">
               <h2 className="text-3xl font-bold mb-6 text-foreground">
                 Website Information Gathering
               </h2>
@@ -162,9 +162,9 @@ const PrivacyPolicy = () => {
             {/* Key Points Summary */}
             <GlassCard className="p-8 md:p-12">
               <h2 className="text-2xl font-bold mb-6 text-center">
-                <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
-                  Key Privacy Principles
-                </span>
+                <span className="text-accent">
+                Key Privacy Principles
+              </span>
               </h2>
               
               <div className="space-y-4">
@@ -202,7 +202,7 @@ const PrivacyPolicy = () => {
             </GlassCard>
 
             {/* Contact Section */}
-            <GlassCard className="p-8 md:p-12 text-center bg-gradient-to-br from-background/50 to-primary/10">
+            <GlassCard className="p-8 md:p-12 text-center bg-background/50">
               <h2 className="text-2xl font-bold mb-4 text-foreground">
                 Questions About Our Privacy Policy?
               </h2>

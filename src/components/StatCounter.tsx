@@ -52,7 +52,7 @@ const StatCounter = ({ end, duration = 2000, suffix = "", prefix = "" }: StatCou
   }, [isVisible, end, duration]);
 
   return (
-    <div ref={ref} className="text-5xl md:text-6xl font-bold bg-gradient-to-r from-accent via-accent-glow to-accent bg-clip-text text-transparent">
+    <div ref={ref} className="text-5xl md:text-6xl font-bold text-accent">
       {prefix}{count.toLocaleString()}{suffix}
     </div>
   );

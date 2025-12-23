@@ -111,7 +111,7 @@ const Services = () => {
       <Navigation />
 
       {/* Hero Section - Mobile Optimized */}
-      <section className="relative min-h-[80vh] md:min-h-[90vh] flex items-center overflow-hidden pt-20 bg-gradient-to-b from-background to-background/50">
+      <section className="relative min-h-[80vh] md:min-h-[90vh] flex items-center overflow-hidden pt-20 bg-background">
         <div className="container mx-auto px-4 sm:px-6">
           {/* Desktop Layout - 3 Columns */}
           <div className="hidden lg:grid lg:grid-cols-3 gap-12 items-center max-w-7xl mx-auto">
@@ -154,7 +154,7 @@ const Services = () => {
               {/* Hexagonal Icons in Cross/Plus Pattern */}
               <div className="relative w-80 h-80">
                 {/* Top Hexagon - File/Document */}
-                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-28 h-28 bg-gradient-to-br from-primary to-accent clip-hexagon flex items-center justify-center transform hover:scale-110 transition-transform duration-300 shadow-xl">
+                <div className="absolute top-0 left-1/2 -translate-x-1/2 w-28 h-28 bg-accent clip-hexagon flex items-center justify-center transform hover:scale-110 transition-transform duration-300 shadow-xl">
                   <FileText size={36} className="text-primary-foreground" />
                 </div>
                 
@@ -213,10 +213,10 @@ const Services = () => {
 
             {/* Hexagons Grid for Mobile */}
             <div className="grid grid-cols-2 gap-4 sm:gap-6 max-w-md mx-auto py-8">
-              <div className="w-24 h-24 sm:w-28 sm:h-28 mx-auto bg-gradient-to-br from-primary to-accent clip-hexagon flex items-center justify-center shadow-xl">
+              <div className="w-24 h-24 sm:w-28 sm:h-28 mx-auto bg-accent clip-hexagon flex items-center justify-center shadow-xl">
                 <FileText size={32} className="text-primary-foreground sm:w-10 sm:h-10" />
               </div>
-              <div className="w-24 h-24 sm:w-28 sm:h-28 mx-auto bg-gradient-to-br from-primary to-accent clip-hexagon flex items-center justify-center shadow-xl">
+              <div className="w-24 h-24 sm:w-28 sm:h-28 mx-auto bg-accent clip-hexagon flex items-center justify-center shadow-xl">
                 <Briefcase size={32} className="text-primary-foreground sm:w-10 sm:h-10" />
               </div>
               <div className="w-24 h-24 sm:w-28 sm:h-28 mx-auto bg-gradient-to-br from-primary to-accent clip-hexagon flex items-center justify-center shadow-xl">
@@ -279,7 +279,7 @@ const Services = () => {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6">
-              <span className="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
+              <span className="text-accent">
                 How It Works
               </span>
             </h2>
@@ -307,7 +307,7 @@ const Services = () => {
           {/* Centered Title and Subtitle */}
           <div className="text-center mb-12">
             <h2 className="text-4xl md:text-5xl font-bold mb-3">
-              <span className="bg-gradient-to-r from-accent to-primary bg-clip-text text-transparent">
+              <span className="text-accent">
                 Service Excellence
               </span>
             </h2>

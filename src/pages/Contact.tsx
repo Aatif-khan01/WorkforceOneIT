@@ -132,9 +132,9 @@ const Contact = () => {
           <div className="max-w-4xl mx-auto text-center space-y-6">
             <AnimatedBox animation="fadeInUp" delay={200}>
               <h1 className="text-6xl md:text-7xl font-bold">
-                <span className="bg-gradient-to-r from-accent via-accent-glow to-accent bg-clip-text text-transparent">
-                  Contact Us
-                </span>
+                <span className="text-accent">
+            Contact Us
+          </span>
               </h1>
             </AnimatedBox>
             <AnimatedBox animation="fadeInUp" delay={400}>
@@ -158,9 +158,9 @@ const Contact = () => {
             {/* Contact Form */}
             <AnimatedCard className="p-10" animation="fadeInLeft" delay={200}>
               <h2 className="text-3xl font-bold mb-8">
-                <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
-                  Get in Touch
-                </span>
+                <span className="text-accent">
+            Get in Touch
+          </span>
               </h2>
               
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -334,9 +334,9 @@ const Contact = () => {
 
               <AnimatedCard className="p-8" animation="fadeInRight" delay={700}>
                 <h3 className="text-2xl font-bold mb-6">
-                  <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
-                    Stay Connected
-                  </span>
+                  <span className="text-accent">
+            Stay Connected
+          </span>
                 </h3>
                 <p className="text-muted-foreground mb-6">
                   Follow us on social media for updates, insights and new opportunities.

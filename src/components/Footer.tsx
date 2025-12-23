@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="space-y-4">
             <Link to="/" className="inline-flex items-center">
               <img
-                src={logoDark}
+                src={logoLight}
                 alt="Company logo"
                 className="h-14 w-auto transition-opacity duration-300 dark:hidden block"
                 width={168}
@@ -23,7 +23,7 @@ const Footer = () => {
                 loading="lazy"
               />
               <img
-                src={logoLight}
+                src={logoDark}
                 alt="Company logo"
                 className="h-14 w-auto transition-opacity duration-300 hidden dark:block"
                 width={168}

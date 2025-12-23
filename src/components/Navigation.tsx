@@ -106,7 +106,7 @@ const Navigation = () => {
               className="hover:scale-105 transition-transform duration-300 flex items-center"
             >
               <img
-                src={logoDark}
+                src={logoLight}
                 alt="Company logo"
                 className="h-12 w-auto object-contain transition-opacity duration-300 dark:hidden block"
                 style={{ maxHeight: "48px" }}
@@ -116,7 +116,7 @@ const Navigation = () => {
                 loading="eager"
               />
               <img
-                src={logoLight}
+                src={logoDark}
                 alt="Company logo"
                 className="h-12 w-auto object-contain transition-opacity duration-300 hidden dark:block"
                 style={{ maxHeight: "48px" }}

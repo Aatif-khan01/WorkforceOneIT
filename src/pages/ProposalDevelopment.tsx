@@ -168,9 +168,9 @@ const ProposalDevelopment = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
-                Our Core Services
-              </span>
+              <span className="text-accent">
+Our Core Services
+</span>
             </h2>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-7xl mx-auto">
@@ -193,9 +193,9 @@ const ProposalDevelopment = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-accent-glow to-accent bg-clip-text text-transparent">
-                Our 4-Phase Process
-              </span>
+              <span className="text-accent">
+Our 4-Phase Process
+</span>
             </h2>
           </div>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
@@ -218,9 +218,9 @@ const ProposalDevelopment = () => {
         <div className="container mx-auto px-6">
           <GlassCard className="p-12 max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-center">
-              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
-                Why Choose Our Proposal Services
-              </span>
+              <span className="text-accent">
+Why Choose Our Proposal Services
+</span>
             </h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-4">

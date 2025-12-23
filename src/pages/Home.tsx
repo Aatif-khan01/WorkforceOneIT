@@ -152,7 +152,7 @@ Explore Services
 <div className="container mx-auto px-6">
 <AnimatedBox animation="fadeInUp" delay={50} className="text-center mb-16">
 <h2 className="text-5xl md:text-6xl font-bold mb-6">
-<span className="bg-gradient-to-r from-accent to-secondary bg-clip-text text-transparent">
+<span className="text-accent">
 What We Deliver
 </span>
 </h2>
@@ -203,7 +203,7 @@ decoding="async"
 <div className="container mx-auto px-6">
 <AnimatedBox animation="fadeInUp" delay={50} className="text-center mb-16">
 <h2 className="text-5xl md:text-6xl font-bold mb-6">
-<span className="bg-gradient-to-r from-accent-glow to-accent bg-clip-text text-transparent">
+<span className="text-accent">
 How We Work
 </span>
 </h2>
@@ -246,7 +246,7 @@ Today, we help you meet deadlines. Tomorrow, we help you expand into new markets
 <div className="container mx-auto px-6">
 <AnimatedCard className="p-12 max-w-4xl mx-auto" animation="fadeInUp" delay={50}>
 <h2 className="text-4xl md:text-5xl font-bold mb-8 text-center">
-<span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
+<span className="text-accent">
 What We Believe
 </span>
 </h2>
@@ -273,9 +273,9 @@ className="flex items-start space-x-4"
           {/* Centered Title and Subtitle with reduced spacing */}
           <div className="text-center mb-8">
             <h2 className="text-4xl md:text-5xl font-bold mb-3">
-              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
-                Quick Summary about Workforce One Information Technology
-              </span>
+              <span className="text-accent">
+Quick Summary about Workforce One Information Technology
+</span>
             </h2>
 <p className="text-xl text-muted-foreground">
 </p>

@@ -125,11 +125,11 @@ const About = () => {
       </section>
 
       {/* Why Choose Us */}
-      <section className="py-16 md:py-24 bg-gradient-to-b from-background to-background/50">
+      <section className="py-16 md:py-24 bg-background">
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6">
-              <span className="bg-gradient-to-r from-accent-glow to-accent bg-clip-text text-transparent">
+              <span className="text-accent">
                 Why Choose Us
               </span>
             </h2>
@@ -178,7 +178,7 @@ const About = () => {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4">
-              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
+              <span className="text-accent">
                 Industries We Serve
               </span>
             </h2>
@@ -204,7 +204,7 @@ const About = () => {
         <div className="container mx-auto px-4 sm:px-6">
           <div className="text-center mb-12 md:mb-16">
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 md:mb-6">
-            <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
+            <span className="text-accent">
                 Our Promise to You
               </span>
             </h2>
@@ -215,7 +215,7 @@ const About = () => {
             {principles.map((principle, index) => (
               <GlassCard key={index} className="p-6 md:p-8 group">
                 <div className="flex items-start space-x-3 md:space-x-4">
-                  <div className="p-2 md:p-3 rounded-xl bg-gradient-to-br from-accent to-accent-glow group-hover:scale-110 transition-transform duration-300 flex-shrink-0">
+                  <div className="p-2 md:p-3 rounded-xl bg-accent group-hover:scale-110 transition-transform duration-300 flex-shrink-0">
                     <principle.icon size={24} className="text-background sm:w-7 sm:h-7" />
                   </div>
                   <div className="flex-1 min-w-0">

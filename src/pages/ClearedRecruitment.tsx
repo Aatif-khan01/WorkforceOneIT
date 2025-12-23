@@ -243,9 +243,9 @@ const ClearedRecruitment = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-accent-glow to-accent bg-clip-text text-transparent">
-                End-to-End Recruitment Process
-              </span>
+              <span className="text-accent">
+End-to-End Recruitment Process
+</span>
             </h2>
           </div>
 
@@ -269,9 +269,9 @@ const ClearedRecruitment = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
-                Specialized Roles We Fill
-              </span>
+              <span className="text-accent">
+Specialized Roles We Fill
+</span>
             </h2>
           </div>
 
@@ -292,9 +292,9 @@ const ClearedRecruitment = () => {
         <div className="container mx-auto px-6">
           <GlassCard className="p-12 max-w-4xl mx-auto">
             <h2 className="text-3xl md:text-4xl font-bold mb-12 text-center">
-              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
-                Why Choose Our Cleared Recruitment
-              </span>
+              <span className="text-accent">
+Why Choose Our Cleared Recruitment
+</span>
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-6">

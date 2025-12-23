@@ -273,9 +273,9 @@ const StaffingServices = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
-                Why Our Workforce Staffing Stands Out
-              </span>
+              <span className="text-accent">
+Why Our Workforce Staffing Stands Out
+</span>
             </h2>
           </div>
 
@@ -307,9 +307,9 @@ const StaffingServices = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-accent-glow to-accent bg-clip-text text-transparent">
-                Core Staffing Solutions
-              </span>
+              <span className="text-accent">
+Core Staffing Solutions
+</span>
             </h2>
           </div>
 
@@ -342,9 +342,9 @@ const StaffingServices = () => {
         <div className="container mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-5xl font-bold mb-6">
-              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
-                Our Process: How We Deliver Value
-              </span>
+              <span className="text-accent">
+Our Process: How We Deliver Value
+</span>
             </h2>
           </div>
 
@@ -368,9 +368,9 @@ const StaffingServices = () => {
         <div className="container mx-auto px-6">
           <GlassCard className="p-12 max-w-4xl mx-auto">
             <h2 className="text-4xl font-bold mb-8 text-center">
-              <span className="bg-gradient-to-r from-accent to-accent-glow bg-clip-text text-transparent">
-                Why Choose Workforce One Information Technology
-              </span>
+              <span className="text-accent">
+Why Choose Workforce One Information Technology
+</span>
             </h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div className="space-y-4">
