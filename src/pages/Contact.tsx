@@ -9,7 +9,13 @@ import ImageGridInfo from "@/components/ImageGridInfo";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue
+} from "@/components/ui/select";
 import { toast } from "sonner";
 import galleryConsultation from "@/assets/gallery-consultation.jpg";
 import galleryPartnership from "@/assets/gallery-partnership.jpg";
@@ -149,7 +155,8 @@ const Contact = () => {
               </AnimatedBox>
               <AnimatedBox animation="fadeInUp" delay={600}>
                 <p className="text-lg text-foreground max-w-3xl mx-auto">
-                  Have a question about our services, a project you're planning, or just want to explore how we can help you win, recruit, staff or build software? Let's talk.
+                  Have a question about our services, a project you're planning, or just want to
+                  explore how we can help you win, recruit, staff or build software? Let's talk.
                 </p>
               </AnimatedBox>
             </div>
@@ -299,52 +306,47 @@ const Contact = () => {
                 </form>
               </AnimatedCard>
 
-              {/* Contact Information (single box) */}
+              {/* Contact Information - single combined box */}
               <div className="space-y-8">
                 <AnimatedCard className="p-8" animation="fadeInRight" delay={300}>
                   <h3 className="text-2xl font-bold mb-6">Contact</h3>
 
                   <div className="space-y-6">
-                    {/* Headquarter / Address */}
+                    {/* Headquarter (same as first image) */}
                     <div className="flex items-start space-x-4">
                       <div className="p-3 rounded-xl bg-gradient-to-br from-accent to-accent-glow flex-shrink-0">
                         <MapPin size={24} className="text-background" />
                       </div>
                       <div>
+                        <p className="text-sm font-semibold text-foreground mb-1">
+                          Headquarter
+                        </p>
                         <p className="text-muted-foreground">
-                          6 Pidgeon Hill Drive, Suite 305,
-                          <br />
-                          Sterling, VA 20165
+                          St. Petersburg, Florida
                         </p>
                       </div>
                     </div>
 
-                    {/* Phone */}
+                    {/* Contact US (same as first image) */}
                     <div className="flex items-start space-x-4">
                       <div className="p-3 rounded-xl bg-gradient-to-br from-secondary to-coral flex-shrink-0">
                         <Phone size={24} className="text-background" />
                       </div>
                       <div>
+                        <p className="text-sm font-semibold text-foreground mb-1">
+                          Contact US
+                        </p>
                         <a
-                          href="tel:+17038841032"
-                          className="text-muted-foreground hover:text-accent transition-colors duration-200 block"
+                          href="tel:+17037911501"
+                          className="text-muted-foreground hover:text-accent transition-colors duration-200 block mb-1"
                         >
-                          +1 703-884-1032
+                          +1 (703) 791-1501
                         </a>
-                      </div>
-                    </div>
-
-                    {/* Email */}
-                    <div className="flex items-start space-x-4">
-                      <div className="p-3 rounded-xl bg-gradient-to-br from-accent to-secondary flex-shrink-0">
-                        <Mail size={24} className="text-background" />
-                      </div>
-                      <div>
                         <a
-                          href="mailto:contact@iquasar.com"
+                          href="mailto:info@workforceoneit.com"
                           className="text-muted-foreground hover:text-accent transition-colors duration-200 block"
                         >
-                          contact@iquasar.com
+                          info@workforceoneit.com
                         </a>
                       </div>
                     </div>
@@ -379,7 +381,8 @@ const Contact = () => {
                 >
                   <h3 className="text-xl font-bold mb-4">Ready to Get Started?</h3>
                   <p className="text-muted-foreground mb-6">
-                    Our team typically responds within 24 hours during business days. For urgent inquiries, please mention it in your message.
+                    Our team typically responds within 24 hours during business days. For urgent
+                    inquiries, please mention it in your message.
                   </p>
                   <div className="flex items-center space-x-2 text-accent">
                     <Mail size={20} className="animate-pulse-slow" />
