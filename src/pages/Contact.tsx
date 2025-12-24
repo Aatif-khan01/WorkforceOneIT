@@ -312,13 +312,14 @@ const Contact = () => {
                   <h3 className="text-2xl font-bold mb-6">Contact</h3>
 
                   <div className="space-y-6">
-                    {/* Headquarter (same as first image) */}
+                    {/* Headquarter */}
                     <div className="flex items-start space-x-4">
                       <div className="p-3 rounded-xl bg-gradient-to-br from-accent to-accent-glow flex-shrink-0">
                         <MapPin size={24} className="text-background" />
                       </div>
                       <div>
                         <p className="text-sm font-semibold text-foreground mb-1">
+                          Headquarter
                         </p>
                         <p className="text-muted-foreground">
                           St. Petersburg, Florida
@@ -326,20 +327,33 @@ const Contact = () => {
                       </div>
                     </div>
 
-                    {/* Contact US (same as first image) */}
+                    {/* Phone */}
                     <div className="flex items-start space-x-4">
                       <div className="p-3 rounded-xl bg-gradient-to-br from-secondary to-coral flex-shrink-0">
                         <Phone size={24} className="text-background" />
                       </div>
                       <div>
                         <p className="text-sm font-semibold text-foreground mb-1">
+                          Call Us
                         </p>
                         <a
                           href="tel:+17037911501"
-                          className="text-muted-foreground hover:text-accent transition-colors duration-200 block mb-1"
+                          className="text-muted-foreground hover:text-accent transition-colors duration-200 block"
                         >
                           +1 (703) 791-1501
                         </a>
+                      </div>
+                    </div>
+
+                    {/* Email – own icon row */}
+                    <div className="flex items-start space-x-4">
+                      <div className="p-3 rounded-xl bg-gradient-to-br from-accent to-secondary flex-shrink-0">
+                        <Mail size={24} className="text-background" />
+                      </div>
+                      <div>
+                        <p className="text-sm font-semibold text-foreground mb-1">
+                          Email
+                        </p>
                         <a
                           href="mailto:info@workforceoneit.com"
                           className="text-muted-foreground hover:text-accent transition-colors duration-200 block"
