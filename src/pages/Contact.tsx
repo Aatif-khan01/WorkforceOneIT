@@ -303,7 +303,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-bold mb-2">Headquarter</h3>
-                    <p className="text-muted-foreground mb-2">St.Petersburg,FL</p>
+                    <p className="text-muted-foreground mb-2">St. Petersburg, Florida</p>
                     <p className="text-muted-foreground"></p>
                   </div>
                 </div>
