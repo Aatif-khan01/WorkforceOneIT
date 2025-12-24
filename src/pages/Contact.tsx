@@ -302,8 +302,8 @@ const Contact = () => {
                     <MapPin size={24} className="text-background" />
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold mb-2">Head Office (India)</h3>
-                    <p className="text-muted-foreground mb-2">Srinagar, Jammu and Kashmir, India</p>
+                    <h3 className="text-xl font-bold mb-2">Headquarter</h3>
+                    <p className="text-muted-foreground mb-2">St.Petersburg,FL</p>
                     <p className="text-muted-foreground"></p>
                   </div>
                 </div>
@@ -326,7 +326,7 @@ const Contact = () => {
                       href="mailto:info@workforceonesolutions.com" 
                       className="text-muted-foreground hover:text-accent transition-colors duration-200 block"
                     >
-                      info@workforceonesolutions.com
+                      info@workforceoneit.com
                     </a>
                   </div>
                 </div>
