@@ -319,6 +319,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <p className="text-sm font-semibold text-foreground mb-1">
+                          Headquarter
                         </p>
                         <p className="text-muted-foreground">
                           St. Petersburg, Florida
@@ -333,6 +334,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <p className="text-sm font-semibold text-foreground mb-1">
+                          Call Us
                         </p>
                         <a
                           href="tel:+17037911501"
@@ -350,6 +352,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <p className="text-sm font-semibold text-foreground mb-1">
+                          Email
                         </p>
                         <a
                           href="mailto:info@workforceoneit.com"
@@ -375,7 +378,7 @@ const Contact = () => {
                   <div className="flex space-x-4">
                     <a
                       href="#"
-                      className="w-12 h-12 rounded-lg bg-glass/40 border border-glass-border hover:border-accent flex items-center justify-center transition-all hover:scale-110 animate-float"
+                      className="w-12 h-12 rounded-lg bg-glass/40 border border-glass-border hover:border-accent flex items-center justify-center transition-all hover:scale-110"
                     >
                       <span className="text-accent font-bold">in</span>
                     </a>
