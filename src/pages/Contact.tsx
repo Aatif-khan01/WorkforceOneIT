@@ -319,7 +319,6 @@ const Contact = () => {
                       </div>
                       <div>
                         <p className="text-sm font-semibold text-foreground mb-1">
-                          Headquarter
                         </p>
                         <p className="text-muted-foreground">
                           St. Petersburg, Florida
@@ -334,7 +333,6 @@ const Contact = () => {
                       </div>
                       <div>
                         <p className="text-sm font-semibold text-foreground mb-1">
-                          Call Us
                         </p>
                         <a
                           href="tel:+17037911501"
@@ -352,7 +350,6 @@ const Contact = () => {
                       </div>
                       <div>
                         <p className="text-sm font-semibold text-foreground mb-1">
-                          Email
                         </p>
                         <a
                           href="mailto:info@workforceoneit.com"
