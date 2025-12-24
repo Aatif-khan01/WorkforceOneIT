@@ -323,10 +323,10 @@ const Contact = () => {
                       +1 (703) 791-1501
                     </a>
                     <a 
-                      href="mailto:info@workforceoneit.com" 
+                      href="mailto:info@workforceonesolutions.com" 
                       className="text-muted-foreground hover:text-accent transition-colors duration-200 block"
                     >
-                      info@workforceoneit.com
+                      info@workforceonesolutions.com
                     </a>
                   </div>
                 </div>
