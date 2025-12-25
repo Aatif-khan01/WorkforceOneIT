@@ -36,6 +36,7 @@
       content="Expert proposal development, cleared recruitment, workforce staffing, and custom software solutions for government contractors and commercial enterprises."
     />
     <meta property="og:image" content="https://www.workforceoneit.com/og-image.jpg" />
+    <meta property="og:site_name" content="Workforce One Information Technology" />
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image" />
@@ -64,7 +65,7 @@
     <meta name="msapplication-TileImage" content="/android-chrome-192x192.png" />
     <meta name="theme-color" content="#ffffff" />
 
-    <!-- Structured Data -->
+    <!-- Structured Data for Organization -->
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -93,6 +94,22 @@
           "https://www.linkedin.com/company/workforceoneit",
           "https://twitter.com/workforceoneit"
         ]
+      }
+    </script>
+
+    <!-- Structured Data for WebSite (for site name in search results) -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "name": "Workforce One Information Technology",
+        "alternateName": ["WfOIT", "Workforce One IT"],
+        "url": "https://www.workforceoneit.com",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://www.workforceoneit.com/search?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
       }
     </script>
 
