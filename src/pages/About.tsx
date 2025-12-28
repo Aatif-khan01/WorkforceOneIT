@@ -52,7 +52,7 @@ const About = () => {
         <title>About Us | Workforce One Information Technology</title>
         <meta
           name="description"
-          content="Learn how Workforce One Information Technology (WorkforceOneIT) empowers government contractors and commercial enterprises with proposal development, cleared staffing, and software expertise."
+          content="Learn how Workforce One Information Technology (WOIT) empowers government contractors and commercial enterprises with proposal development, cleared staffing, and software expertise."
         />
         <meta
           name="keywords"
@@ -62,7 +62,7 @@ const About = () => {
         <meta property="og:title" content="About Us | Workforce One Information Technology" />
         <meta
           property="og:description"
-          content="Discover the mission, values, and team behind Workforce One Information Technology (WorkforceOneIT)."
+          content="Discover the mission, values, and team behind Workforce One Information Technology (WOIT)."
         />
         <meta property="og:url" content="https://www.workforceoneit.com/about" />
         <meta property="og:image" content="https://www.workforceoneit.com/og-image.jpg" />
@@ -97,7 +97,7 @@ const About = () => {
                   About Workforce One Information Technology
                 </h2>
                 <p className="text-base sm:text-lg text-muted-foreground leading-relaxed">
-                  Workforce One Information Technology (WorkforceOneIT) was founded with a clear purpose: to empower
+                  Workforce One Information Technology (WOIT) was founded with a clear purpose: to empower
                   organizations to succeed in today's fast-paced and ever-evolving business and
                   technology landscape through talent and innovation. As a trusted partner to both
                   federal contractors and commercial enterprises, we bring together proven expertise,
@@ -108,7 +108,7 @@ const About = () => {
                   help our clients build stronger teams, streamline operations, and achieve mission-critical
                   objectives with efficiency and precision.
                   <br /><br />
-                  At Workforce One Information Technology, we pride ourselves on being more than just a service
+                  At WOIT, we pride ourselves on being more than just a service
                   provider. We're a strategic partner committed to innovation, measurable impact and
                   delivering excellence in every engagement.
                 </p>
