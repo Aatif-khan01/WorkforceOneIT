@@ -95,7 +95,7 @@ const ProposalDevelopment = () => {
         />
         <meta
           name="keywords"
-          content="proposal development, capture planning, RFP support, federal proposal writing"
+          content="Workforce One Information Technology, WorkforceOneIT, Workforce One IT, WfOIT, wfoit, proposal development, capture planning, RFP support, federal proposal writing"
         />
         <link rel="canonical" href="https://www.workforceoneit.com/services/proposal" />
         <meta property="og:title" content="Proposal Development | Workforce One Information Technology" />

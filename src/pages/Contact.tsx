@@ -114,7 +114,7 @@ const Contact = () => {
         />
         <meta
           name="keywords"
-          content="Workforce One Information Technology, WorkforceOneIT, Workforce One IT, contact Workforce One Information Technology, proposal consultation, staffing inquiry, software project quote"
+          content="Workforce One Information Technology, WorkforceOneIT, Workforce One IT, WfOIT, wfoit, contact Workforce One Information Technology, proposal consultation, staffing inquiry, software project quote"
         />
         <link rel="canonical" href="https://www.workforceoneit.com/contact" />
         <meta property="og:title" content="Contact Us | Workforce One Information Technology" />

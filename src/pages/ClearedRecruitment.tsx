@@ -160,7 +160,7 @@ const ClearedRecruitment = () => {
         />
         <meta
           name="keywords"
-          content="cleared recruitment, security clearance staffing, TS/SCI hiring, cleared talent provider"
+          content="Workforce One Information Technology, WorkforceOneIT, Workforce One IT, WfOIT, wfoit, cleared recruitment, security clearance staffing, TS/SCI hiring, cleared talent provider"
         />
         <link rel="canonical" href="https://www.workforceoneit.com/services/recruitment" />
         <meta property="og:title" content="Cleared Recruitment | Workforce One Information Technology" />

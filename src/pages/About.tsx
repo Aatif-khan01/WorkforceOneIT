@@ -56,7 +56,7 @@ const About = () => {
         />
         <meta
           name="keywords"
-          content="Workforce One Information Technology, WorkforceOneIT, Workforce One IT, about Workforce One Information Technology, proposal experts, cleared staffing partner, software consultancy"
+          content="Workforce One Information Technology, WorkforceOneIT, Workforce One IT, WfOIT, wfoit, about Workforce One Information Technology, proposal experts, cleared staffing partner, software consultancy"
         />
         <link rel="canonical" href="https://www.workforceoneit.com/about" />
         <meta property="og:title" content="About Us | Workforce One Information Technology" />

@@ -218,7 +218,7 @@ const SoftwareDevelopment = () => {
         />
         <meta
           name="keywords"
-          content="custom software development, SaaS development, DevOps services, enterprise application development"
+          content="Workforce One Information Technology, WorkforceOneIT, Workforce One IT, WfOIT, wfoit, custom software development, SaaS development, DevOps services, enterprise application development"
         />
         <link rel="canonical" href="https://www.workforceoneit.com/services/software" />
         <meta property="og:title" content="Custom Software Development | Workforce One Information Technology" />

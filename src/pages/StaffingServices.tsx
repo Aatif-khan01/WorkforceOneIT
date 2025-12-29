@@ -193,7 +193,7 @@ const StaffingServices = () => {
         />
         <meta
           name="keywords"
-          content="workforce staffing, contract staffing, talent solutions, commercial staffing partner"
+          content="Workforce One Information Technology, WorkforceOneIT, Workforce One IT, WfOIT, wfoit, workforce staffing, contract staffing, talent solutions, commercial staffing partner"
         />
         <link rel="canonical" href="https://www.workforceoneit.com/services/staffing" />
         <meta property="og:title" content="Workforce Staffing | Workforce One Information Technology" />

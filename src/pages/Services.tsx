@@ -90,7 +90,7 @@ const Services = () => {
         />
         <meta
           name="keywords"
-          content="Workforce One Information Technology, WorkforceOneIT, Workforce One IT, proposal development services, cleared recruitment services, workforce staffing provider, software development agency"
+          content="Workforce One Information Technology, WorkforceOneIT, Workforce One IT, WfOIT, wfoit, proposal development services, cleared recruitment services, workforce staffing provider, software development agency"
         />
         <link rel="canonical" href="https://www.workforceoneit.com/services" />
         <meta property="og:title" content="Services | Workforce One Information Technology" />

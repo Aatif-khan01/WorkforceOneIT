@@ -73,7 +73,7 @@ const Home = () => {
         />
         <meta
           name="keywords"
-          content="Workforce One Information Technology, WorkforceOneIT, Workforce One IT, proposal development, cleared recruitment, workforce staffing, software development, government contracting"
+          content="Workforce One Information Technology, WorkforceOneIT, Workforce One IT, WfOIT, wfoit, proposal development, cleared recruitment, workforce staffing, software development, government contracting"
         />
         <link rel="canonical" href="https://www.workforceoneit.com/" />
         <meta property="og:title" content="Workforce One Information Technology | Home" />
