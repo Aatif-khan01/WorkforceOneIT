@@ -83,6 +83,7 @@ const Home = () => {
         />
         <meta property="og:url" content="https://www.workforceoneit.com/" />
         <meta property="og:image" content="https://www.workforceoneit.com/og-image.jpg" />
+        <meta property="og:site_name" content="WorkforceOneIT" />
         <meta name="twitter:title" content="Workforce One Information Technology | Home" />
         <meta
           name="twitter:description"
