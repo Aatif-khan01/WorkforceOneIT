@@ -377,8 +377,11 @@ const Contact = () => {
                   </p>
                   <div className="flex space-x-4">
                     <a
-                      href="#"
+                      href="https://www.linkedin.com/company/workforce-one-it/about"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="w-12 h-12 rounded-lg bg-glass/40 border border-glass-border hover:border-accent flex items-center justify-center transition-all hover:scale-110"
+                      aria-label="Visit Workforce One IT on LinkedIn"
                     >
                       <span className="text-accent font-bold">in</span>
                     </a>
