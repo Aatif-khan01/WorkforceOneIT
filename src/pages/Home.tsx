@@ -69,7 +69,7 @@ const Home = () => {
         <title>Workforce One Information Technology | Proposal Development, Recruitment & Software</title>
         <meta
           name="description"
-          content="Workforce One Information Technology (WorkforceOneIT) provides expert proposal development, cleared recruitment, workforce staffing, and custom software solutions."
+          content="Workforce One Information Technology provides expert proposal development, cleared recruitment, workforce staffing, and custom software solutions."
         />
         <meta
           name="keywords"
