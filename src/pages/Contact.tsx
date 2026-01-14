@@ -324,7 +324,7 @@ const Contact = () => {
                         <p className="text-sm font-semibold text-foreground mb-1">
                         </p>
                         <p className="text-muted-foreground">
-                          St. Petersburg, Florida
+                          7901 4th St N, STE 300 St. Petersburg, FL 33702
                         </p>
                       </div>
                     </div>
