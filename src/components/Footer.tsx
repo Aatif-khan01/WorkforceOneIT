@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Linkedin } from "lucide-react";
+import { Linkedin, MapPin, Phone, Mail } from "lucide-react";
 import logoLight from "@/assets/WfOS-LOGO.png";
 import logoDark from "@/assets/Logo-dark.png";
 import { useTheme } from "@/components/ThemeProvider";
@@ -51,7 +51,41 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-foreground">Connect</h4>
+            <h4 className="text-lg font-semibold mb-4 text-foreground">Contact</h4>
+            <div className="space-y-3">
+              {/* Address */}
+              <div className="flex items-start space-x-2">
+                <MapPin size={18} className="text-accent mt-1 flex-shrink-0" />
+                <p className="text-muted-foreground text-sm">
+                  7901 4th St N, STE 300<br />
+                  St. Petersburg, FL 33702
+                </p>
+              </div>
+              
+              {/* Phone */}
+              <div className="flex items-start space-x-2">
+                <Phone size={18} className="text-accent flex-shrink-0" />
+                <a 
+                  href="tel:+17037911501" 
+                  className="text-muted-foreground hover:text-accent transition-colors text-sm"
+                >
+                  +1 (703) 791-1501
+                </a>
+              </div>
+              
+              {/* Email */}
+              <div className="flex items-start space-x-2">
+                <Mail size={18} className="text-accent flex-shrink-0" />
+                <a 
+                  href="mailto:info@workforceoneit.com" 
+                  className="text-muted-foreground hover:text-accent transition-colors text-sm"
+                >
+                  info@workforceoneit.com
+                </a>
+              </div>
+            </div>
+            
+            <h5 className="text-sm font-semibold mt-6 mb-3 text-foreground">Follow Us</h5>
             <div className="flex space-x-4">
               <a 
                 href="https://www.linkedin.com/company/workforce-one-it/about/?viewAsMember=true"
