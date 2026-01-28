@@ -51,7 +51,8 @@ const Footer = () => {
           </div>
 
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-foreground">Contact</h4>
+            <h4 className="text-lg font-semibold mb-2 text-foreground">Contact</h4>
+            <p className="text-sm text-muted-foreground mb-4">Workforce One Information Technology LLC</p>
             <div className="space-y-3">
               {/* Address */}
               <div className="flex items-start space-x-2">
