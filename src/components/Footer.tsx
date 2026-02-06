@@ -27,7 +27,7 @@ const Footer = () => {
               />
             </Link>
             <p className="text-muted-foreground">
-              Workforce One Information Technology LLC WorkforceOneIT - Empowering Businesses through Talent and Innovation.
+              Workforce One Information Technology LLC - Empowering Businesses through Talent and Innovation.
             </p>
           </div>
 
