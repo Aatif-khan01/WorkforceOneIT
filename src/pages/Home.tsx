@@ -318,7 +318,7 @@ const Home = () => {
                 {
                   title: "Our Mission",
                   icon: <Shield size={24} className="text-background" />,
-                  content: "To bridge the gap between opportunity and execution by providing specialized talent, strategic insights (Proposal Development), and cutting-edge technology solutions that empower our clients to achieve their most critical objectives with confidence."
+                  content: "To bridge the gap between opportunity and execution by providing specialized talent, strategic insights, and cutting-edge technology solutions that empower our clients to achieve their most critical objectives with confidence."
                 }
               ]} 
             />
